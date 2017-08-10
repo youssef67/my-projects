@@ -1,0 +1,534 @@
+@font-face{
+    font-family: 'ralewayregular';
+    src: url('fonts/raleway-regular-webfont.woff2'),
+         url('fonts/raleway-regular-webfont.woff');
+   
+
+}
+
+@font-face{
+	font-family: :'ralewaybold';
+	src: url('fonts/raleway-bold-webfont.woff2'),
+		 url('fonts/raleway-bold-webfont.woff');
+	font-weight: bold;
+	
+}
+
+
+/* éléments principaux */
+
+html, body
+
+{
+	margin: 0;
+	padding: 0;
+}
+
+#bloc_page
+{
+
+width: auto;
+margin: auto;
+}
+
+
+/* header */
+
+
+
+header 
+{
+width: 100%;
+height: 42px;
+display: flex;
+justify-content:space-between;
+background-color: white;
+position: fixed;
+z-index: 5;
+border-bottom: solid 2px black;
+}
+
+
+
+/* navigation */
+
+
+nav ul
+{
+	font-family: 'ralewayregular', arial;
+	list-style-type: none;
+	display: flex;
+	margin-top: 8px;
+	margin-right: 0px;
+}
+
+nav li
+{
+	margin-right: 30px;
+}
+
+nav a
+{
+font-family: 'ralewayregular', arial;
+font-size: 1.2em;
+color: black;
+padding-bottom: 0;
+text-decoration: none;
+}
+
+a:hover
+{
+text-decoration: underline;
+}
+
+/* bannière */
+
+#image_principale
+{
+	padding: 0px;
+	width: 100%;
+	height: 700px;
+	background-image: url("images/photo_de_garde.jpg");
+}
+
+
+#banniere_paragraphe strong
+{
+font-family : 'ralewayregular', arial;
+margin: 250px 0px 100px 0px;
+text-align: center;
+text-transform: uppercase;
+font-size: 1.8em;
+color: white;
+font-style: bold;
+}
+
+#banniere_paragraphe
+{
+font-family: 'ralewayregular', arial;
+text-transform: lowercase;
+position: absolute;
+margin: 250px 70px 0px 100px;
+font-size: 1.6em;
+color: white; 
+text-align: center;
+}
+
+/* section ma petite histoire */
+
+
+#section_1
+{
+	height: auto;
+
+}
+
+em, strong, h1{
+	font-weight: bold;
+}
+
+.Ma_petite_histoire h1
+{
+	
+	margin-bottom: 80px;
+	font-family: 'ralewayregular', arial;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-size: 2.8em;
+	color: #a81a1a;
+	
+}	
+
+.Ma_petite_histoire p
+
+{
+
+	font-family: 'ralewayregular', arial;
+	font-size: 1.6em;
+	text-align: center;
+	color: black;
+	margin-right: 20px;
+	margin-left: 20px;
+	
+
+}
+
+/* comment ça marche */
+
+
+#section_2{
+
+	height: auto;
+	margin: 50px;
+}
+
+h1, h2, em, strong
+{
+	font-weight: bold;
+}
+.etape
+{
+	text-decoration: underline;
+}
+
+#section_2 h1
+{
+	font-family: 'ralewayregular', arial;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-size: 2.8em;
+	color: #a81a1a;
+	margin-top: 70px;
+}
+	
+/* Etape 1: Rejoins la playlist*/
+
+
+#etape_1
+{
+	display: flex;
+}
+
+
+.titre_1
+{
+	margin-left: 20px;
+	margin-top: 90px;
+	font-family: 'ralewayregular', arial;
+	font-size: 2.2em;
+    text-align: left;
+    color: #a81a1a; 
+
+}
+
+.paragraphe_1
+
+{
+
+font-family: 'ralewayregular', arial;
+margin-left: 20px;
+font-size: 1.5em;
+text-align: left;
+
+}
+
+      
+
+/* etape 2 : propose une musique*/
+
+
+
+#etape_2
+{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.titre_2
+{
+	
+	margin-top: 60px;
+	font-family: 'ralewayregular', arial;
+	font-size: 2.2em;
+    color: #a81a1a; 
+
+}
+
+.paragraphe_2
+{
+font-family: 'ralewayregular', arial;
+font-size: 1.5em;
+}
+
+
+/* etape 3 : deviens le patron*/
+
+
+#etape_3
+{
+	display: flex;
+}
+
+.titre_3
+{
+	margin-left: 15px;
+	margin-top: 90px;
+	font-family: 'ralewayregular', arial;
+	font-size: 2.2em;
+    text-align: left; 
+    color: #a81a1a; 
+
+}
+
+.paragraphe_3
+
+{
+font-family: 'ralewayregular', arial;
+margin-left: 15px;
+font-size: 1.5em;
+text-align: left;
+
+}
+
+/* bouton telechargement */
+
+#section_3 
+{
+
+display: flex;
+justify-content: flex-start;
+width: 100%;
+height: 400px;
+background-image: url("images/communistparty.jpg");
+}
+
+/* telecharger l'application */
+
+.titre_telecharger
+{
+
+	font-family: 'ralewayregular', arial;
+	font-weight: bold;
+	font-size: 1.7em;
+	margin-top: 60px;
+	margin-left: 30px;
+	
+}
+
+/* boutons de telechargement */
+#section_3{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.titre_telecharger h1
+{
+
+	font-size: 1.3em;
+	
+}
+
+#boutons
+
+{	
+	display: flex;
+	justify-content: center;
+
+	
+}
+
+.apple
+
+{
+	margin-right: 40px;
+		
+}
+
+
+/* footer */
+footer{
+
+	display: flex;
+	justify-content:center;
+}
+footer img
+{
+	width: 45px;
+	height: 45px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+footer div{
+
+	margin: 10px
+}
+
+
+
+
+/* responsive */
+
+/* -------------------------------------------------------------- */
+
+@media all and (max-width: 1024px){
+
+/*----------------------------------------------------------------*/
+
+header
+{
+	height: auto;
+}
+
+#logo
+{
+
+	display: none;
+}
+
+nav ul{
+
+	flex-direction: column;
+}
+
+nav a {
+
+	font-size: 1.1em;
+}
+
+/* banniere */
+
+/* ----------------------------------------------------------------*/
+
+#banniere_paragraphe{
+
+	font-size: 1.2em;
+}
+
+
+#section_1 h1
+{
+
+	font-size: 1.7em;
+}
+
+.Ma_petite_histoire p{
+
+	font-size: 1.2em;
+}
+
+
+/* comment ça marche */
+
+/*----------------------------------------------------------------*/
+
+#section_2{
+
+	flex-direction: column;
+}
+
+#section_2 h1
+{
+
+	font-size: 1.7em;
+}
+
+#section_2 h2
+{
+	font-size: 1.4em;
+}
+
+#section_2 p
+{
+	font-size: 1.1em;
+}
+
+
+
+#etape_1
+{
+
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+ 	margin-top: 50px;
+
+}
+
+.titre_1
+{
+	margin-top: 20px;
+	
+}
+
+
+
+#etape_2{
+
+	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+ 	margin-top: 50px;
+
+}
+
+.titre_2
+{
+	margin-top: 20px;
+}
+
+
+#etape_3
+{
+
+	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+ 	margin-top: 50px;
+
+}
+
+.titre_3
+{
+	margin-top: 20px;
+	
+}
+
+
+/* contact */
+
+/*---------------------------------------------------------------------*/
+
+
+#section_3
+
+{
+	flex-direction: column; 
+		
+}
+
+
+.titre_telecharger
+{
+	font-style: bold;
+	font-size: 1.1em;
+	margin-top: 100px;
+
+
+	
+}
+
+#boutons
+
+{
+	flex-direction: column;
+	margin-left: 90px;
+	margin-top: -30px;
+
+ 	
+ 	
+}
+
+#boutons img
+{
+	width: 170px;
+	height: 170px;
+}
+
+.apple
+{
+		margin-bottom: -80px;
+}
+
+.google
+{
+	margin-bottom: 40px;
+}
+
+}
