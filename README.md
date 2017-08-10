@@ -15,3 +15,7 @@ Dès que j'ai fait ma modification de fichier je procède à différentes étape
 2 - Si je constate qu'un fichier n'est pas tracké, faire  - git add "nom du fichier" - pour tracker ce fichier.
 3 - Il s'agit maintenant de commiter le fichier avec - git commit -m "commentaire"
 4 - Et enfin envoyer ce fichier commité sur GITHUB avec - git push origin master -
+
+
+test
+test
